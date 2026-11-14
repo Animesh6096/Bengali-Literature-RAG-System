@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "১০ মিনিট স্কুল - বাংলা সাহিত্য AI চ্যাট বট",
+  "description": "Bilingual RAG question answering on Tagore's অপরিচিতা",
   "keywords": ["bengali", "literature", "rag", "ai", "chatbot", "hsc"],
   "scripts": {
     "dev": "vite",

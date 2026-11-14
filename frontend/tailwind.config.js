@@ -7,23 +7,26 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: {
-          50: '#f0fdf4',
-          100: '#dcfce7',
-          500: '#22c55e',
-          600: '#16a34a',
-          700: '#15803d',
+        paper: '#F7F3EC',
+        ink: {
+          DEFAULT: '#1F2933',
+          soft: '#52606D',
+          faint: '#9AA5B1',
         },
-        accent: {
-          50: '#fdf2f8',
-          100: '#fce7f3',
-          500: '#ec4899',
-          600: '#db2777',
-        }
+        navy: {
+          50: '#EEF2F7',
+          100: '#D9E2EC',
+          600: '#2A4A73',
+          700: '#1F3A5F',
+          800: '#172C48',
+        },
+        clay: '#B5532E',
       },
       fontFamily: {
-        'bengali': ['Noto Sans Bengali', 'Arial', 'sans-serif'],
-      }
+        sans: ['Inter', 'Noto Sans Bengali', 'system-ui', 'sans-serif'],
+        bengali: ['Noto Sans Bengali', 'Inter', 'sans-serif'],
+        serif: ['Noto Serif Bengali', 'Georgia', 'serif'],
+      },
     },
   },
   plugins: [],
